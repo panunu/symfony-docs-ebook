@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">20</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">8a25d3f0-0629-49e6-aee9-96b00a5eddbf</dc:identifier>
+        <dc:title>Symfony2 Documentation</dc:title>
+        <dc:creator opf:file-as="Potencier, Fabien" opf:role="aut">Fabien Potencier</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.9.11) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:publisher>SensioLabs</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;Fabien Potencier&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="0.0" name="calibre:rating"/>
+        <meta content="2013-01-12T16:01:19+00:00" name="calibre:timestamp"/>
+        <meta content="Symfony2 Documentation" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="Symfony2 Documentation - Fabien Potencier.jpg" type="cover" title="Cover"/>
+    </guide>
+</package>
