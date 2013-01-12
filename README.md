@@ -2,7 +2,7 @@
 
 Has the following crossed your mind?
 
->>> "I would like to read Symfony2 documentation on my e-reader..."
+> "I would like to read Symfony2 documentation on my e-reader..."
 
 This repository contains a very crude ePub (tested on Kobo) which you can download if you are lazy. But if you yearn for a better version, the following instructions _might_ help you to get started (tested on OS X, Mountain Lion).
 
