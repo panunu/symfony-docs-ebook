@@ -9,7 +9,7 @@ This repository contains a very crude ePub (tested on Kobo) which you can downlo
 1. ```git clone git://github.com/symfony/symfony-docs.git```
 2. ```sudo easy_install -U sphinx``` (assuming you have the necessary Python stuff)
 3. Go to the ```symfony-docs``` directory
-4. ```mv index.rst index-original.rst``
+4. ```mv index.rst index-original.rst```
 5. Run ```sphinx-quickstart```. Hit enter until there's a question about ePub. Answer ```y```.
 6. ```mv index-original.rst index.rst``` (replace the generated index with the original)
 
