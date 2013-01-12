@@ -1,8 +1,10 @@
 # Symfony2 documentation ePub
 
->>> "I would like to read Symfony2 documentation on my e-reader"
+Has the following crossed your mind?
 
-The following instructions _might_ help you to get started (for OS X, Mountain Lion).
+>>> "I would like to read Symfony2 documentation on my e-reader..."
+
+This repository contains a very crude ePub which you can download if you are lazy. But if you yearn for a better version, the following instructions _might_ help you to get started (tested on OS X, Mountain Lion).
 
 1. ```git clone git://github.com/symfony/symfony-docs.git```
 2. ```sudo easy_install -U sphinx``` (assuming you have the necessary Python stuff)
@@ -17,10 +19,13 @@ You can also replace the created ```conf.py``` with the one supplied in this rep
 8. ```make singlehtml```. You can also try ```make epub``` but I had no success with it
 9. Import the generated ```index.html``` from ```_build/singlehtml``` directory in [Calibre](http://calibre-ebook.com) and export it to ePub
 
-Obs. the export process might take some time (17 minutes for Quick Start, Book and Cook Book). I suggests you only generate the quick start first to see how long it takes. You can do this by removing other elements from ```index.rst```.
+Obs. the export process might take some time (17 minutes for Quick Start, Book and Cook Book on my computer). I suggest that you only generate the quick start first to see how long it takes. You can do this by removing other elements from ```index.rst```.
 
 ## TODO
 
-- Fix PHP syntax highlighting
-- Fix first pages
-- Fix TOC
+Fix the following:
+
+- PHP syntax highlighting
+- First pages (including cover)
+- TOC
+- ?
